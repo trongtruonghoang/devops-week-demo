@@ -12,7 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <div className="flex items-center gap-2 justify-between font-[family-name:var(--font-geist-mono)] text-xl">
+        <div className="flex items-center gap-2 justify-between font-[family-name:var(--font-geist-mono)] text-2xl">
           <p>
             AM & Infra Discipline
           </p>
@@ -22,45 +22,45 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-12 row-start-2 items-center sm:items-start">
         <div className="flex flex-col items-center gap-3 justify-between font-[family-name:var(--font-geist-mono)]">
           <div className="flex items-center gap-1 justify-between text-6xl font-[family-name:var(--font-geist-mono)] font-bold">
-            <div className="text-[#FF5733]">&lt;</div>
-            <div>DevOps Week 2025</div>
-            <div className="text-[#FF5733]">&gt;</div>
+            <div >&lt;</div>
+            <div className="text-[#FF5733]">DevOps Week 2025</div>
+            <div >&gt;</div>
           </div>
           <div className="flex gap-2">
-            <p className="text-2xl">
+            <p className="text-4xl">
               Share<span className="text-[#FF5733]">.</span>
             </p>
-            <p className="text-2xl">
+            <p className="text-4xl">
               Learn<span className="text-[#FF5733]">.</span>
             </p>
-            <p className="text-2xl">
+            <p className="text-4xl">
               Grow<span className="text-[#FF5733]">.</span>
             </p>
             
           </div>
         </div>
         
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
+        <ol className="list-inside list-decimal text-xl gap-3 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          <li className="mb-4">
             {/* {" "} */}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
             Date: 
             </code>
             {" "} March 10-14 (Mon - Fri)
           </li>
-          <li>
+          <li className="mb-4">
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               Location:
             </code>
             {" "} Floor G. Training Room - Online</li>
           <li>
-            {/* <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              Location:
-            </code> */}
-            For Anyone ready to dive into DevOps</li>
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              For:
+            </code>
+            {" "} Anyone ready to dive into DevOps</li>
         </ol>
 
         {/* <div className="flex gap-4 items-center flex-col sm:flex-row">
