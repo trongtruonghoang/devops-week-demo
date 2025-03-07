@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-3 justify-between font-[family-name:var(--font-geist-mono)]">
           <div className="flex items-center gap-1 justify-between text-6xl font-[family-name:var(--font-geist-mono)] font-bold">
             <div >&lt;</div>
-            <div className="text-[#FF5733]">DevOps Week 2025</div
+            <div className="text-[#FF5733]">DevOps Week 2025</div>
             <div >&gt;</div>
           </div>
           <div className="flex gap-2">
