@@ -93,7 +93,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to Endava locations →
+          Go to Endava →
         </a>
       </footer>
     </div>
