@@ -27,18 +27,18 @@ export default function Home() {
         <div className="flex flex-col items-center gap-3 justify-between font-[family-name:var(--font-geist-mono)]">
           <div className="flex items-center gap-1 justify-between text-6xl font-[family-name:var(--font-geist-mono)] font-bold">
             <div >&lt;</div>
-            <div className="text-[#FF5733]">DevOps Week 2025</div>
+            <div className="text-[#FF5733]">CI/CD Foundation with AWS</div>
             <div >&gt;</div>
           </div>
           <div className="flex gap-2">
             <p className="text-4xl">
-              Share<span className="text-[#FF5733]">.</span>
+              CodeBuild<span className="text-[#FF5733]">.</span>
             </p>
             <p className="text-4xl">
-              Learn<span className="text-[#FF5733]">.</span>
+              CodeDeploy<span className="text-[#FF5733]">.</span>
             </p>
             <p className="text-4xl">
-              Grow<span className="text-[#FF5733]">.</span>
+              CodePipeline<span className="text-[#FF5733]">.</span>
             </p>
             
           </div>
