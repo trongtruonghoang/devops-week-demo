@@ -3,9 +3,9 @@ import { render, screen } from '@testing-library/react'
 import Home from '../src/app//page.tsx';
 
 describe('Home Page', () => {
-  test('renders the main title "DevOps Week 2025"', () => {
+  test('renders the main title "CI/CD Foundation with AWS"', () => {
     render(<Home />);
-    const title = screen.getByText(/DevOps Week 2025/i);
+    const title = screen.getByText(/CI//CD Foundation with AWS/i);
     expect(title).toBeInTheDocument();
   });
 
